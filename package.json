@@ -1,0 +1,17 @@
+{
+  "name": "moonlambo-metadata",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node upload.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "nft.storage": "^7.2.0",
+    "node-fetch": "^3.3.2"
+  }
+}
