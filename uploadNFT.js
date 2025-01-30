@@ -7,20 +7,28 @@ const PINATA_SECRET_KEY = '9dc69487886789a240df51afba6301850f0ad564dd02909e0ad9a
 async function uploadMetadataToPinata() {
     try {
         const metadata = {
-            name: "MoonLambo",
-            symbol: "MOONL",
-            description: "This coin symbolizes the ultimate goal of every trader: rocketing to the moon and arriving in style. Everyone in crypto is chasing their moonshot—and with MOONL, the ride is half the fun!",
-            image: "https://gateway.pinata.cloud/ipfs/bafkreicliehdi57cc35sdbjvaobtzw6sd4karujcto4e5w5ucbsreqbl5i",
-            attributes: [],
-            properties: {
-                files: [
-                    {
-                        uri: "https://gateway.pinata.cloud/ipfs/bafkreicliehdi57cc35sdbjvaobtzw6sd4karujcto4e5w5ucbsreqbl5i",
-                        type: "image/png"
-                    }
-                ]
+            name: "Astro",
+            symbol: "AST",
+            "description": "Whether you’re a hodler, trader, or meme enthusiast, owning an Astro means being part of an elite community of visionaries aiming for the stars.",
+            "image": "https://gateway.pinata.cloud/ipfs/bafybeig6m4bqa6dqtp3ylpsi2edqlgtlperf7orcw7auaxusuy555pgxpm",
+            "external_url": "",
+            "seller_fee_basis_points": 0,
+            "properties": {
+              "files": [
+                {
+                  "uri": "https://gateway.pinata.cloud/ipfs/bafybeig6m4bqa6dqtp3ylpsi2edqlgtlperf7orcw7auaxusuy555pgxpm",
+                  "type": "image/png"
+                }
+              ],
+              "category": "image",
+              "creators": [
+                {
+                  "address": "AopUFgSHXJmcQARjTJex43NYcaQSMcVWmKtcYybo43Xm",
+                  "share": 100
+                }
+              ]
             }
-        };
+          }
 
         // Upload metadata to Pinata
         console.log('Uploading metadata...');
